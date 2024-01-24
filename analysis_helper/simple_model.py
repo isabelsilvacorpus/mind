@@ -22,6 +22,8 @@ class NewsDataset(Dataset):
 class multiclass_classifier(nn.Module):
     '''
     Simple sequential network for classification (17 classes)
+    input: 100-d vector 
+    output: likelihood of each class 
     '''
     def __init__(self):
         super().__init__()
@@ -38,7 +40,9 @@ class multiclass_classifier(nn.Module):
     
 class multiclass_classifier_title(nn.Module):
     '''
-    Simple sequential network for classification (17 classes) for sbert embedding input (384-d)
+    Simple sequential network for classification (17 classes) (intended for sbert title embeddings)
+    input: 384-d SBERT sentence (title) embeddings
+    output: likelihood of each class 
     '''
     def __init__(self):
         super().__init__()
@@ -55,7 +59,9 @@ class multiclass_classifier_title(nn.Module):
     
 class multiclass_classifier_concat(nn.Module):
     '''
-    Simple sequential network for classification (17 classes) for sbert embedding input (384-d)
+    Simple sequential network for classification (17 classes) for concat embeddings
+    input: 484-d vector
+    output: likelihood of each class 
     '''
     def __init__(self):
         super().__init__()
