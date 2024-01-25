@@ -3,6 +3,7 @@ In this project, I use the public [MIND](https://msnews.github.io/) dataset to p
 
 Towards this project, I also employed pretrained sentence BERT embeddings, as made publicly available by Nils Reimers and Iryna Gurevych in 2020. 
 
+Disclaimer: project was develop with limited computational power and time, and so parameters such as # epochs, max iterations, size of data are geared towards these constraints. 
 
 Citations 
 Fangzhao Wu, Ying Qiao, Jiun-Hung Chen, Chuhan Wu, Tao Qi, Jianxun Lian, Danyang Liu, Xing Xie, Jianfeng Gao, Winnie Wu and Ming Zhou. MIND: A Large-scale Dataset for News Recommendation. ACL 2020.

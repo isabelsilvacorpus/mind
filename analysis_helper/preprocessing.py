@@ -47,8 +47,8 @@ def normalize(vec):
     vec = vec / norms.reshape(-1,1)
     return vec
 
-def prepare_tsne_data(df, x_col, y_col):
-    X = [x.reshape(100,) for x in df[x_col]]
+def prepare_tsne_data(df, x_col, y_col, dim_size):
+    X = [x.reshape(dim_size,) for x in df[x_col]]
     y = df[y_col]
     return np.array(X), y
 
