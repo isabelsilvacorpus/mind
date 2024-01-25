@@ -6,6 +6,7 @@ Towards this project, I also employed pretrained sentence BERT embeddings, as ma
 Disclaimer: project was develop with limited computational power and time, and so parameters such as # epochs, max iterations, size of data are geared towards these constraints. 
 
 Citations 
+
 Fangzhao Wu, Ying Qiao, Jiun-Hung Chen, Chuhan Wu, Tao Qi, Jianxun Lian, Danyang Liu, Xing Xie, Jianfeng Gao, Winnie Wu and Ming Zhou. MIND: A Large-scale Dataset for News Recommendation. ACL 2020.
 
 Reimers, Nils, and Iryna Gurevych. "Sentence-bert: Sentence embeddings using siamese bert-networks." arXiv preprint arXiv:1908.10084 (2019).
